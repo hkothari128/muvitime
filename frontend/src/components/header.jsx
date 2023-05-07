@@ -8,7 +8,7 @@ function Header({login}) {
     return (
         <Container className='flex flex-row px-8 items-center justify-between'>
             <Logo></Logo>
-            <button className='bg-primary border-0 text-white px-4 rounded-sm py-2 font-semibold' 
+            <button className='border-0 text-white px-4 rounded-sm py-2 font-semibold md:text-lg btn  bg-primary' 
             onClick={()=>{navigate(login?"/login":"/signup")}}>{login? "Log In": "Sign Up"}</button>
         </Container>
     )

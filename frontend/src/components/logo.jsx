@@ -1,13 +1,15 @@
 import React from 'react'
-import Font from 'react-font'
+
+import styled from 'styled-components';
 
 function Logo() {
     return (
-        <Font family='Indie Flower'>
-            <h1 className='text-primary text-[3em] mx-4'>MUVITIME</h1>
-        </Font>
+        <Container >
+            <img className='w-[10em] h-[2em] md:w-[20em] md:h-[4em]' src="./logo.svg" alt="" />
+        </Container>
     )
 }
+const Container = styled.div``;
 
 
 
